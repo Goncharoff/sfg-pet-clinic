@@ -49,4 +49,12 @@
         <tag>HEAD</tag>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>sfg-pet-clinic</id>
+            <name>sfg-pet-clinic</name>
+            <url>scm:git:https://github.com/Goncharoff/sfg-pet-clinic.git</url>
+            <layout>default</layout>
+        </repository>
+    </distributionManagement>
 </project>
