@@ -37,17 +37,10 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goal>install</goal>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>${artifactId}</finalName>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ssh</artifactId>
-                <version>3.0.0</version>
-            </extension>
-        </extensions>
     </build>
 
     <scm>
@@ -58,7 +51,7 @@
     <distributionManagement>
         <repository>
             <id>clinic-repo</id>
-            <url>git@github.com/Goncharoff/sfg-pet-clinic.git</url>
+            <url>scm:git:git@github.com:Goncharoff/sfg-pet-clinic.git</url>
             <name>sfg-pet-clinic</name>
             <layout>default</layout>
         </repository>
