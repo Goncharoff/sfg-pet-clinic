@@ -52,7 +52,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/Goncharoff/sfg-pet-clinic.gitm</developerConnection>
+        <developerConnection>scm:git:https://github.com/Goncharoff/sfg-pet-clinic.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 </project>
