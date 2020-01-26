@@ -50,7 +50,7 @@
     <distributionManagement>
         <repository>
             <id>clinic-repo</id>
-            <url>scm:git@github.com/Goncharoff/sfg-pet-clinic.git</url>
+            <url>git@github.com/Goncharoff/sfg-pet-clinic.git</url>
             <name>sfg-pet-clinic</name>
             <layout>default</layout>
         </repository>
