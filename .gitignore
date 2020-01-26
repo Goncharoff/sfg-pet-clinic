@@ -142,3 +142,10 @@ Desktop.ini
 
 
 /.mvn/wrapper/
+pet-clinic-data/target
+pet-clinic-web/target
+pom.xml.releaseBackup
+pet-clinic-web/pom.xml.releaseBackup
+pet-clinic-data/pom.xml.releaseBackup
+HELP.md
+release.properties
