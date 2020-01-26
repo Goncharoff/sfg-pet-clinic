@@ -17,7 +17,7 @@
 
     <groupId>com.goncharoff</groupId>
     <artifactId>sfg-pet-clinik</artifactId>
-    <version>0.0.16</version>
+    <version>0.0.17-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
 
@@ -52,7 +52,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Goncharoff/sfg-pet-clinic.git</developerConnection>
-        <tag>sfg-pet-clinik-0.0.16</tag>
+        <tag>sfg-pet-clinik-0.0.11</tag>
     </scm>
 
     <distributionManagement>
