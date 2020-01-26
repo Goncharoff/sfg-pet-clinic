@@ -1,4 +1,4 @@
-package model;
+package com.gocnharoff.model;
 
 import java.time.LocalDate;
 

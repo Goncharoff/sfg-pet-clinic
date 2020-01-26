@@ -1,4 +1,4 @@
-package model;
+package com.gocnharoff.model;
 
 
 public class Person {
