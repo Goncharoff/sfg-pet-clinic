@@ -1,10 +1,12 @@
 package services.map;
 
 import com.gocnharoff.model.Vet;
+import org.springframework.stereotype.Service;
 import services.VetService;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
