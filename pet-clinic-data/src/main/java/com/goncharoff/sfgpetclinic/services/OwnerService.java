@@ -1,6 +1,6 @@
-package services;
+package com.goncharoff.sfgpetclinic.services;
 
-import com.gocnharoff.model.Owner;
+import com.goncharoff.sfgpetclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long>{
 

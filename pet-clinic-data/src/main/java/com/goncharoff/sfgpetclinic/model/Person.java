@@ -1,7 +1,7 @@
-package com.gocnharoff.model;
+package com.goncharoff.sfgpetclinic.model;
 
 
-public class Person extends BaseEntity{
+public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
@@ -20,5 +20,13 @@ public class Person extends BaseEntity{
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 }

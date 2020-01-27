@@ -1,8 +1,8 @@
-package services.map;
+package com.goncharoff.sfgpetclinic.services.map;
 
-import com.gocnharoff.model.Owner;
+import com.goncharoff.sfgpetclinic.model.Owner;
 import org.springframework.stereotype.Service;
-import services.OwnerService;
+import com.goncharoff.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 

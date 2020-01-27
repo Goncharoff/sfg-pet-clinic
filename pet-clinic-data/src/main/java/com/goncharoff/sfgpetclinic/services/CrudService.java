@@ -1,4 +1,4 @@
-package services;
+package com.goncharoff.sfgpetclinic.services;
 
 import java.util.Set;
 

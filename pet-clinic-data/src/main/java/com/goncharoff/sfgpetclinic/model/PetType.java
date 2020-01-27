@@ -1,4 +1,4 @@
-package com.gocnharoff.model;
+package com.goncharoff.sfgpetclinic.model;
 
 public class PetType extends BaseEntity {
 

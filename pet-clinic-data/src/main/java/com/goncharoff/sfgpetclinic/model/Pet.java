@@ -1,4 +1,4 @@
-package com.gocnharoff.model;
+package com.goncharoff.sfgpetclinic.model;
 
 import java.time.LocalDate;
 

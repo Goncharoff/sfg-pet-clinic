@@ -1,12 +1,12 @@
 package com.goncharoff.sfgpetclinic.bootstrap;
 
-import com.gocnharoff.model.Owner;
-import com.gocnharoff.model.Vet;
+import com.goncharoff.sfgpetclinic.model.Owner;
+import com.goncharoff.sfgpetclinic.model.Vet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import services.OwnerService;
-import services.VetService;
+import com.goncharoff.sfgpetclinic.services.OwnerService;
+import com.goncharoff.sfgpetclinic.services.VetService;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -22,16 +22,19 @@ public class DataLoader implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
+        owner1.setId(1L);
 
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
+
         owner2.setFirstName("Fiona");
         owner2.setLastName("Glenanne");
-
+        owner2.setId(2L);
         ownerService.save(owner2);
 
         System.out.println("Owners loaded... ");

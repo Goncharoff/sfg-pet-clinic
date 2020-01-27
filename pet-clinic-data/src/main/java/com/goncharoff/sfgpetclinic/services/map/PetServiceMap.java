@@ -1,8 +1,8 @@
-package services.map;
+package com.goncharoff.sfgpetclinic.services.map;
 
-import com.gocnharoff.model.Pet;
+import com.goncharoff.sfgpetclinic.model.Pet;
 import org.springframework.stereotype.Service;
-import services.PetService;
+import com.goncharoff.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 

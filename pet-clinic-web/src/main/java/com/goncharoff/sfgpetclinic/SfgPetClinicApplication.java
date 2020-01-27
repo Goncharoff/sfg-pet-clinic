@@ -5,11 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"services"})
-public class SfgPetClinikApplication {
+public class SfgPetClinicApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SfgPetClinikApplication.class, args);
+        SpringApplication.run(SfgPetClinicApplication.class, args);
     }
 
 }
