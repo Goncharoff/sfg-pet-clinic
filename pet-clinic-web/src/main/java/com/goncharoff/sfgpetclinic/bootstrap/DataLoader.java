@@ -11,6 +11,8 @@ import org.springframework.stereotype.Component;
 import com.goncharoff.sfgpetclinic.services.OwnerService;
 import com.goncharoff.sfgpetclinic.services.VetService;
 
+import java.time.LocalDate;
+
 @Component
 public class DataLoader implements CommandLineRunner {
 
@@ -39,13 +41,28 @@ public class DataLoader implements CommandLineRunner {
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
+        owner1.setCity("Tokyo");
+        owner1.setAddress("Shibuya street");
+        owner1.setTelephone("88005553535");
+
+        Pet mikesPet = new Pet();
+        mikesPet.setPetType(savedDogType);
+        mikesPet.setBirthDate(LocalDate.now());
+        mikesPet.setName("DobboName");
 
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
-
         owner2.setFirstName("Fiona");
         owner2.setLastName("Glenanne");
+        owner2.setCity("Tokyo");
+        owner2.setAddress("Shibuya street");
+        owner2.setTelephone("88005553535");
+
+        Pet fionaCat = new Pet();
+        mikesPet.setPetType(savedCatType);
+        mikesPet.setBirthDate(LocalDate.now());
+        mikesPet.setName("KittyName");
 
         ownerService.save(owner2);
 
