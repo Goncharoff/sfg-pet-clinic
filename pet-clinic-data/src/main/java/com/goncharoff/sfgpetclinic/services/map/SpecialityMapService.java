@@ -1,11 +1,11 @@
 package com.goncharoff.sfgpetclinic.services.map;
 
 import com.goncharoff.sfgpetclinic.model.Speciality;
-import com.goncharoff.sfgpetclinic.services.SpecialitesService;
+import com.goncharoff.sfgpetclinic.services.SpecialityService;
 
 import java.util.Set;
 
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialitesService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityService {
 
     @Override
     public Set<Speciality> findAll() {
