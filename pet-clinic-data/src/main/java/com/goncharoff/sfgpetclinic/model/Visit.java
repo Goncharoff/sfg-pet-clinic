@@ -2,6 +2,7 @@ package com.goncharoff.sfgpetclinic.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.Set;
 
 @Entity
 @Table(name = "visits")
@@ -13,7 +14,7 @@ public class Visit extends BaseEntity {
     @Column(name = "desciption")
     private String description;
 
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "pet_id")
     private Pet pet;
 
