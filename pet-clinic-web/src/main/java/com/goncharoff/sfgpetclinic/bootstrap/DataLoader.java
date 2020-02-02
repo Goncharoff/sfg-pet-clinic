@@ -2,6 +2,7 @@ package com.goncharoff.sfgpetclinic.bootstrap;
 
 import com.goncharoff.sfgpetclinic.model.*;
 import com.goncharoff.sfgpetclinic.services.*;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 
 @Component
+@Slf4j
 public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
