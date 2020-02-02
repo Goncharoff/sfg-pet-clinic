@@ -3,12 +3,14 @@ package com.goncharoff.sfgpetclinic.services.map;
 import com.goncharoff.sfgpetclinic.model.Speciality;
 import com.goncharoff.sfgpetclinic.model.Vet;
 import com.goncharoff.sfgpetclinic.services.SpecialityService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import com.goncharoff.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
     public VetMapService(SpecialityService specialityService) {
